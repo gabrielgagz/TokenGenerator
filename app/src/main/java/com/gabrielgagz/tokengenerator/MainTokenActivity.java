@@ -18,14 +18,13 @@ public class MainTokenActivity extends AppCompatActivity implements View.OnClick
         btnGenerate.setOnClickListener(this);
         Button btnAddNew = findViewById(R.id.newTokenMain);
         btnAddNew.setOnClickListener(this);
-
     }
 
     @Override
     public void onClick(View v) {
         if ( v.getId() == R.id.generateTokenMain ) {
-            Intent generateIntent = new Intent (v.getContext(), GenerateTokenActivity.class);
-            startActivityForResult(generateIntent, 0);
+            Intent generateIntent = new Intent (this, GenerateTokenActivity.class);
+            startActivity(generateIntent);
         } else if ( v.getId() == R.id.newTokenMain ) {
             Intent addNewIntent = new Intent (v.getContext(), AddNewTokenActivity.class);
             startActivityForResult(addNewIntent, 0);

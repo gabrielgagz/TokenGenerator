@@ -4,14 +4,9 @@
     <string name="generate_token">Generate Token</string>
     <string name="new_token_name">Add New Token Name</string>
     <string name="generate_new_token">Generate New Token</string>
-    <string name="token_generated">Token Generated</string>
-    <string name="token_generated_info">token-generated</string>
-    <string name="type_new_name">Type New Name</string>
-    <string-array name="s_tokens">
-        <item>Secret 1</item>
-        <item>Secret 2</item>
-        <item>Secret 3</item>
-        <item>Secret 4</item>
-        <item>Secret 5</item>
-    </string-array>
+    <string name="token_generated">Token Generated: </string>
+    <string name="error">ERROR: </string>
+    <string name="no_token">No token stored</string>
+    <string name="token_stored">Token stored</string>
+    <string name="token_empty">Token Name cannot be empty</string>
 </resources>

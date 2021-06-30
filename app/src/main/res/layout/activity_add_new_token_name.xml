@@ -21,12 +21,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/addNewTokenName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/type_new_name"
+        android:text=""
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:layout_marginTop="136dp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/newTokenButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/new_token_name"
